@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_concrete_corr_means",
+  "source_file": "Project final draft code.sas",
+  "source_blob_sha": "812462031ea597a9d3182f0beac89ebea47c597d",
+  "source_commit": "6fe111c93f5600f4c51dcdc6507bd22f584a77b4",
+  "notes": "PROC IMPORT of Concrete_Strength.xls replaced with inline DATALINES sampling the same 9-column UCI Concrete Compressive Strength schema; author's data s1 step kept unmodified, then their PROC CORR (all 11 variables incl. derived Q and lop) and PROC MEANS with their exact statistics list (mean std stderr clm min p25 p50 p75 max n)."
+}

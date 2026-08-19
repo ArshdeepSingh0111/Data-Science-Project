@@ -1,0 +1,61 @@
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                  Dependent Variable: Concrete_compressive_strength_MP                                  
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   8      1825.20160    228.15020      2.20    0.1121
+Error                  11      1138.72558    103.52051                    
+Corrected Total        19      2963.92718                                 
+
+Root MSE          10.17450    R-Square            0.6158
+Dependent Mean      39.31900    Adj R-Sq            0.3364
+Coeff Var         25.87681
+
+                                                  Parameter Estimates                                                   
+
+Variable                                DF   Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+--------------------------------  --------  ---------  --------------  --------  --------  ---------  ------------------
+Intercept                                1  457.43606       409.84795      1.12    0.2882          .                   .
+Cement__component_1__kg_in_a_m_3         1   -0.12686         0.10281     -1.23    0.2430    0.04051            24.68417
+Blast_Furnace_Slag__component_2_         1   -0.07713         0.10603     -0.73    0.4822    0.10722             9.32676
+Fly_Ash__component_3__kg_in_a_m_         1   -0.23545         0.15554     -1.51    0.1583    0.32183             3.10721
+Water___component_4__kg_in_a_m_3         1   -0.92493         0.63680     -1.45    0.1743    0.02003            49.93286
+Superplasticizer__component_5__k         1   -1.85782         1.43523     -1.29    0.2220    0.09608            10.40787
+Coarse_Aggregate___component_6__         1    0.00571         0.18733      0.03    0.9762    0.09220            10.84643
+Fine_Aggregate__component_7__kg_         1   -0.25797         0.12889     -2.00    0.0706    0.04320            23.14739
+Q                                        1   -0.29439         2.25655     -0.13    0.8986    0.80675             1.23955
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                  Dependent Variable: Concrete_compressive_strength_MP                                  
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   3      1210.40735    403.46912      3.68    0.0344
+Error                  16      1753.51983    109.59499                    
+Corrected Total        19      2963.92718                                 
+
+Root MSE          10.46876    R-Square            0.4084
+Dependent Mean      39.31900    Adj R-Sq            0.2975
+Coeff Var         26.62520
+
+                                   Parameter Estimates                                   
+
+Variable                                DF   Estimate  Standard Error   t Value  Pr > |t|
+--------------------------------  --------  ---------  --------------  --------  --------
+Intercept                                1  219.16949        61.72012      3.55    0.0027
+Water___component_4__kg_in_a_m_3         1   -0.51946         0.18156     -2.86    0.0113
+Superplasticizer__component_5__k         1   -1.86260         0.67937     -2.74    0.0145
+Fine_Aggregate__component_7__kg_         1   -0.09718         0.04149     -2.34    0.0324
+
+                       Summary of Backward Elimination                        
+
+    Step  Variable Entered/Removed  Variable                            Pr > F
+--------  ------------------------  --------------------------------  --------
+       1  Removed                   coarse_aggregate___component_6__    0.9762
+       2  Removed                   q                                   0.8903
+       3  Removed                   blast_furnace_slag__component_2_    0.3715
+       4  Removed                   fly_ash__component_3__kg_in_a_m_    0.1155
+       5  Removed                   cement__component_1__kg_in_a_m_3    0.1032
+

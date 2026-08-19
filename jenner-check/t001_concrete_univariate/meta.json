@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_concrete_univariate",
+  "source_file": "Project final draft code.sas",
+  "source_blob_sha": "812462031ea597a9d3182f0beac89ebea47c597d",
+  "source_commit": "6fe111c93f5600f4c51dcdc6507bd22f584a77b4",
+  "notes": "PROC IMPORT of Concrete_Strength.xls replaced with inline DATALINES sampling the same 9-column UCI Concrete Compressive Strength schema (public teaching dataset the script analyzes); author's data s1 step (age-quartile flag Q, log transform lop) and both PROC UNIVARIATE normality checks kept unmodified."
+}
