@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-19T14:52:00Z",
+  "_captured_run_id": "r_fd7b1348fca74b4aa4b821e7a510a47f",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote Concrete_Strength (20 rows, 9 columns).",
+    "NOTE: Wrote s1 (20 rows, 11 columns).",
+    "NOTE: PROC REG data=s1",
+    "NOTE: PROC REG: processed 1 job(s) in batch"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

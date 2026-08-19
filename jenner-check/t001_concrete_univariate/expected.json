@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-19T14:52:00Z",
+  "_captured_run_id": "r_e9b89410f491493dbe436e71f688f6ff",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote Concrete_Strength (20 rows, 9 columns).",
+    "NOTE: PROC PRINT completed: 20 observations printed, 9 variables",
+    "NOTE: Wrote s1 (20 rows, 11 columns).",
+    "NOTE: PROC UNIVARIATE"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
